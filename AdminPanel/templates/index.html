@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>administration</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+        <link rel="stylesheet" href="../static/dist/src/style.css">
+    </head>
+    <body>
+        <div id="container_nav">
+
+            <nav id="navigation_bar">
+                <img src="../static/img/logo.png" alt="logo" id="logo" />
+
+                <div id class="choice"><button class="mybut"><i
+                            class='bx bx-home-smile'></i></button></div>
+                <div id class="choice"><button class="mybut" ><i
+                            class='bx bx-import'
+                            class="mybut"></i></button></div>
+               
+                <div id class="choice"><button class="mybut"><i
+                            class='bx bx-add-to-queue'></i></button></div>
+               
+                <div id class="choice"><button class="mybut" id="click1"><i
+                            class='bx bx-log-out'></i></button></div>
+            </nav>
+
+        </div>
+        <div id="pricipal_container" style="display: none;">
+            <section id="sec1">
+                <label for="select" id="icone"><i
+                        class='bx bxs-cloud-upload'
+                        style="display:block; "></i>
+                    <span id="label">importer un mode</span></label>
+                <span id="fileName"
+                    style="color:black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; font-size:20px; margin-bottom: 10px;"></span>
+                <input type="file" id="select">
+                <button id="insert" onclick="envoyerFichier()"><span>Insérer</span> un model</button>
+
+            </section>
+
+        </div>
+        <div class="containte" id="content">
+            <div><div>
+        </div>
+        <div id="container2" style="display: block;">
+        
+    
+            <button id="boutonTelecharger" onclick="fetchData()">Télécharger</button>
+
+        </div>
+        <div class="container">
+            <div class="circular-progress">
+                <span class="progress-value">0%</span>
+            </div>
+            <span class="text">under 20</span>
+            <div id="result"><span id="cnt"></span> le nombre des scans
+                effectués </div>
+        </div>
+
+        <div class="container">
+            <div class="circular-progress">
+                <span class="progress-value">0%</span>
+            </div>
+            <span class="text">20-50</span>
+            <div id="mychart">
+                <canvas id="polarChart"></canvas>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="circular-progress">
+                <span class="progress-value">0%</span>
+            </div>
+            <span class="text">> 50</span>
+        </div>
+        
+        <div class="con" id="my_formPath">
+                <form>
+                <div class="conten">
+                    <label for="nom_path" id="label_path" class="label">Nom the
+                        pathologie:</label><br>
+                    <input type="text" id="nom_path" name="nom" required
+                        placeholder="pahtologie"><br><br>
+                </div>
+                <div class="conten">
+                    <label for="description" id="label2">Description
+                        :</label><br>
+                    <textarea id="description" name="description" rows="4"
+                        cols="50"
+                        required placeholder="description"></textarea><br><br>
+                </div>
+                <button id="my_button2">confirmer</button>
+            </form>
+            <div id="cont2">
+    <div class="father">
+        <label for="symptoms" id="label_sym" >Symptômes :</label>
+        <input type="text" id="symptoms" name="symptoms" required placeholder="symptoms">
+
+    </div>
+    <div class="father">
+        <label for="category" id="label_cat">Catégorie :</label>
+        <select id="category" name="category">
+        <option value="Changes in Voice Quality:">Changes in Voice Quality:</option>
+        <option value="Voice Functionality">Voice Functionality</option>
+        <option value="Pain or Discomfort">Pain or Discomfort</option>
+    </select>
+  
+    </div>
+    <button type="submit" id="sumt_bit">Soumettre</button>
+    <button type="submit" id="suprimer">suprimer</button>
+
+</div>
+            
+        </div>
+       
+        
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../static/js/index.js"></script>
+</html>

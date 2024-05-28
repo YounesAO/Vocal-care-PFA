@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "662521d2ee6e3deb2a630539"
+  },
+  "key": 1,
+  "label": "Changes in Voice Quality:",
+  "data": [
+    {
+      "name": "Hoarseness or Raspy Voice",
+      "description": "Rough, breathy, or strained voice quality."
+    },
+    {
+      "name": "Voice Fatigue",
+      "description": "Tiredness or weakness of voice during or after speaking."
+    },
+    {
+      "name": "Voice Breaks",
+      "description": "Sudden or uncontrollable changes in pitch or volume."
+    },
+    {
+      "name": "Reduced Vocal Range",
+      "description": "Difficulty reaching high or low notes."
+    },
+    {
+      "name": "Tremor or Shaking in Voice",
+      "description": "Uncontrolled trembling or shakiness in the voice."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "662521d2ee6e3deb2a63053a"
+  },
+  "key": 2,
+  "label": "Voice Functionality",
+  "data": [
+    {
+      "name": "Difficulty Speaking Loudly",
+      "description": "Inability to project voice or speak at a normal volume."
+    },
+    {
+      "name": "Difficulty Speaking Softly",
+      "description": "Inability to speak softly or whisper."
+    },
+    {
+      "name": "Vocal Effort",
+      "description": "Excessive effort required to produce speech."
+    },
+    {
+      "name": "Vocal Strain",
+      "description": "Feeling of strain or tension in the throat while speaking."
+    },
+    {
+      "name": "Breathiness",
+      "description": "Excessive air leakage during speech, resulting in a weak or airy voice."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "662521d2ee6e3deb2a63053b"
+  },
+  "key": 3,
+  "label": "Pain or Discomfort",
+  "data": [
+    {
+      "name": "Sore Throat",
+      "description": "Pain or discomfort in the throat, especially during or after speaking."
+    },
+    {
+      "name": "Throat Clearing",
+      "description": "Frequent need to clear the throat due to irritation or discomfort."
+    },
+    {
+      "name": "Neck Pain",
+      "description": "Pain or stiffness in the neck muscles, especially after speaking."
+    },
+    {
+      "name": "Ear Pain",
+      "description": "Pain or discomfort in the ears, often associated with vocal strain."
+    }
+  ]
+}]

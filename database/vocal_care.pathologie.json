@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "66251ec0ee6e3deb2a630526"
+  },
+  "name": "Neoplasm",
+  "description": "An abnormal growth of cells that can be benign (non-cancerous) or malignant (cancerous), which can form on the vocal cords or in the respiratory tract."
+},
+{
+  "_id": {
+    "$oid": "66251eeeee6e3deb2a630527"
+  },
+  "name": "Vocal Paralysis",
+  "description": "Loss of movement of the vocal cords due to nerve damage, which can result in difficulties in speaking and controlling the voice."
+},
+{
+  "_id": {
+    "$oid": "66251f63ee6e3deb2a630528"
+  },
+  "name": "Phonotrauma",
+  "description": "Injuries to the vocal cords caused by excessive, abusive, or incorrect vocal use, often resulting in voice alterations and throat pain."
+},
+{
+  "_id": {
+    "$oid": "662520bdee6e3deb2a630529"
+  },
+  "name": "Chronic Laryngitis",
+  "description": "Persistent inflammation of the vocal cords, often caused by prolonged exposure to irritants such as cigarette smoke or chemicals, causing persistent hoarseness and dry cough."
+},
+{
+  "_id": {
+    "$oid": "662520bdee6e3deb2a63052a"
+  },
+  "name": "Spasmodic Dysphonia",
+  "description": "A neurological disorder characterized by involuntary spasms of the vocal cord muscles, resulting in a jerky or trembling voice and difficulty speaking fluently."
+},
+{
+  "_id": {
+    "$oid": "662520bdee6e3deb2a63052b"
+  },
+  "name": "Contact Granuloma",
+  "description": "An inflammatory lesion of the vocal cord mucosa, often caused by repeated vocal trauma or chemical irritation, resulting in voice alteration and a sensation of constriction in the throat."
+},
+{
+  "_id": {
+    "$oid": "662520bdee6e3deb2a63052c"
+  },
+  "name": "Vocal Cyst",
+  "description": "An abnormal fluid formation on the vocal cords, which can cause persistent hoarseness and voice alteration."
+},
+{
+  "_id": {
+    "$oid": "662520bdee6e3deb2a63052d"
+  },
+  "name": "Leukoplakia",
+  "description": "Whitish or thick lesions on the vocal cords or throat mucosa, which can be precancerous and require close medical monitoring."
+},
+{
+  "_id": {
+    "$oid": "662520bdee6e3deb2a63052e"
+  },
+  "name": "Laryngeal Papillomatosis",
+  "description": "A viral disease characterized by the growth of small benign growths on the vocal cords, which can cause persistent hoarseness and breathing difficulties."
+},
+{
+  "_id": {
+    "$oid": "662520bdee6e3deb2a63052f"
+  },
+  "name": "Subglottic Hematoma",
+  "description": "Accumulation of blood in the subglottic region of the airways, often caused by vocal trauma, resulting in voice alteration and breathing difficulties."
+}]
